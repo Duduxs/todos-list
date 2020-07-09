@@ -1,0 +1,51 @@
+header{
+    font: normal 20pt arial;
+    color: white;
+    text-align: center;
+}
+
+body{
+background-color: rgba(66, 198, 238, 0.548);
+
+}
+
+section{
+    margin: auto;
+    background-color:white;
+    border-radius: 8pt;
+    box-shadow: 8pt 8pt 15pt rgba(0, 0, 0, 0.61);
+    width: 300pt;
+
+
+  
+}
+
+input#txtField{
+    background-color: rgba(255, 255, 255, 0.329);
+    height: 30pt;
+    width: 290pt;
+    border: none;
+    text-decoration: none;
+    text-align: center;
+    display: inline-block;
+}
+
+input#btn{
+    height: 30pt;
+    width: 301pt;
+    background-color: rgba(78, 226, 78, 0.466);
+    border: none;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    display: inline-block;
+}
+
+
+footer{
+    font: normal 8pt arial;
+    color: white;
+    font-style: italic;
+    text-align: center;
+    padding-top: 10pt;
+}

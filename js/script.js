@@ -39,6 +39,7 @@ btnElement.addEventListener('click', addTodo);
 
 function addTodo() {
 
+    if(textElement.value != ''){
     var text = textElement.value;
 
     //Save in my array the input, after clear the input.
@@ -48,6 +49,10 @@ function addTodo() {
     //Save in LS and refresh my todo's list.
     saveStorage();
     renderTodo();
+    }else{
+        alert('Say a todo');
+    }
+
 }
 
 function removeTodo(index) {
